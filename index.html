@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset=utf-8>
+  <title>Test Horarios</title>
+  <link rel="stylesheet" href="style.css"></style>
+  
+  <script src="index.js"></script>
+</head>
+<body onload="init()">
+    <div class="new_buttons">
+        <div id="new_numbers" class="button">Cifras</div>
+        <div id="new_letters" class="button">Letras</div>
+        <div id="clear" class="button">Borrar</div>
+    </div>
+    <div class="outter_container">
+        <div id="numbers_container" class="container hidden">
+            <div class="container">
+                <div class="numbers_container">
+                    <div id="numbers_0" class="number"></div>
+                    <div id="numbers_1" class="number"></div>
+                    <div id="numbers_2" class="number"></div>
+                    <div id="numbers_3" class="number"></div>
+                    <div id="numbers_4" class="number"></div>
+                    <div id="numbers_5" class="number"></div>
+                </div>
+                <div id="numbers_entry" class="numbers_container">
+                    <input id="numbers_entry_input" type="number"/>
+                    <div id="numbers_entry_button" class="button">OK</div>
+                </div>
+                <div id="extra_numbers_container" class="numbers_container hidden">
+                    <div id="numbers_6" class="number"></div>
+                    <div id="numbers_7" class="number"></div>
+                    <div id="numbers_8" class="number"></div>
+                    <div id="numbers_9" class="number"></div>
+                    <div id="numbers_10" class="number"></div>
+                    <div id="numbers_11" class="number"></div>
+                </div>
+                <div id="operators" class="numbers_container hidden">
+                    <div id="add" class="number">+</div>
+                    <div id="substract" class="number">-</div>
+                    <div id="multiply" class="number">x</div>
+                    <div id="divide" class="number">÷</div>
+                </div>
+                <div id="operations"></div>
+            </div>
+        </div>
+        <div id="letters_container" class="container">
+            <div class="container">
+                <div class="letters_container">
+                    <div id="letter_0" class="letter"></div>
+                    <div id="letter_1" class="letter"></div>
+                    <div id="letter_2" class="letter"></div>
+                    <div id="letter_3" class="letter"></div>
+                    <div id="letter_4" class="letter"></div>
+                    <div id="letter_5" class="letter"></div>
+                    <div id="letter_6" class="letter"></div>
+                    <div id="letter_7" class="letter"></div>
+                    <div id="letter_8" class="letter"></div>
+                    <div id="letter_9" class="letter"></div>
+                </div>
+                <div id="letters_entry" class="letters_container">
+                    <input id="letters_entry_input"/>
+                    <div id="letters_entry_button" class="button">OK</div>
+                </div>
+                <div id="word" class="letters_container hidden">
+                    <div id="word_0" class="letter"></div>
+                    <div id="word_1" class="letter"></div>
+                    <div id="word_2" class="letter"></div>
+                    <div id="word_3" class="letter"></div>
+                    <div id="word_4" class="letter"></div>
+                    <div id="word_5" class="letter"></div>
+                    <div id="word_6" class="letter"></div>
+                    <div id="word_7" class="letter"></div>
+                    <div id="word_8" class="letter"></div>
+                    <div id="word_9" class="letter"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
