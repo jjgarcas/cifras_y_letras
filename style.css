@@ -47,11 +47,10 @@ body {
     margin-bottom: 2vh;
 }
 
-.number,
-.letter {
+.number {
     background-color: #00BFFF;
     padding: 2vw;
-    width: 10vw;
+    width: 9vw;
     height: 2.6vh;
     display: flex;
     justify-content: center;
@@ -80,7 +79,7 @@ body {
 .letter {
     background-color: #00BFFF;
     padding: 2vw;
-    width: 6vw;
+    width: 4vw;
     height: 2.6vh;
     display: flex;
     justify-content: center;

@@ -119,6 +119,7 @@ function init() {
         if (!numbersEntryInput.value || !parseInt(numbersEntryInput.value)) return;
         numbers[numberEntryIndex].innerText = numbersEntryInput.value;
         numbersEntryInput.value = '';
+        numbersEntryInput.focus();
         numberEntryIndex++;
         if (numberEntryIndex > 5) {
             numbersEntry.classList.add('hidden');
